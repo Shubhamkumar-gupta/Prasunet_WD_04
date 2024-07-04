@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    padding-bottom: 80px; 
+}
+
+header {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #0323f4;
+}
+
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+main {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+#typewriter {
+    color: red;
+}
+
+p, h1 {
+    color: white;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.img-container img {
+    max-width: 100%;
+    width: 300px;
+    height: 275px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container > div {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    position: fixed;
+    bottom: 0px; /*distance from the bottom as needed */
+    left: 0;
+    width: 100%;
+    background-color: #333; /* background color as needed */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; 
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    width: 20px; /* icon size as needed */
+    height: 20px;
+}
+
+.social-icons a img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: white;
+    
+    text-align: center;
+    
+    
+    
+    position:fixed;
+    bottom: 27px;
+    width: 100%;
+    
+    
+}
+
+
+/* Education section */
+.education {
+
+    color: #fff; 
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.education h2 {
+    color: #fff; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.education-table th,
+.education-table td {
+    border: 1px solid #fff; /* White borders */
+    padding: 8px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: goldenrod; 
+}
+
+/* Skills section */
+.skills {
+   
+    color: #fff; /* White text color */
+    padding: 20px;
+}
+
+.skills h2 {
+    color: #fff; /* White text color for heading */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+    border: 1px solid #fff; /* White borders */
+    padding: 8px;
+    text-align: left;
+}
+
+.skills-table th {
+    background-color: goldenrod;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+}
+
+.project {
+    margin: 0px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 325px;
+    text-align: center;
+    margin-top: 2px;
+    background-color: #fff;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.project p {
+    padding: 10px;
+    color: black;
+    text-align: justify;
+}
+
+.project a {
+    display: block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background-color: #45a049;
+}
+
+.contactcontact {
+    font-family: Arial, sans-serif;
+    background-color: khaki;
+    margin-top: -40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contcontainer {
+    background-color: khaki;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width:fit-content;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally within the form */
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-top: 15px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    color: #666666;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+  
+  
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-container img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
